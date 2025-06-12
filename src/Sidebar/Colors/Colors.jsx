@@ -1,8 +1,18 @@
 import React from 'react';
 import './Colors.css';
+import Input from '../../Components/Input';
 
 function Colors() {
-  return <div>Colors</div>;
+  return (
+    <div>
+      <h2 className="sideBar-title color-title">Colors</h2>
+      <Input />
+      <Input />
+      <Input />
+      <Input />
+      <Input />
+    </div>
+  );
 }
 
 export default Colors;
