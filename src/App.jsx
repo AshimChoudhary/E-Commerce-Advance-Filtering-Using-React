@@ -1,9 +1,14 @@
-import ECommerce from './Components/ECommerce';
+import Nav from './Navigation/Nav';
+import Products from './Products/Products';
+import Recommended from './Recomended/Recommended';
+import './index.css';
 
 function App() {
   return (
     <>
-      <ECommerce />
+      <Nav />
+      <Products />
+      <Recommended />
     </>
   );
 }
