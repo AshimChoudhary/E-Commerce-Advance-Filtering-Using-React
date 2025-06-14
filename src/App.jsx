@@ -4,7 +4,7 @@ import Products from './Products/Products';
 import Recommended from './Recomended/Recommended';
 import Sidebar from './Sidebar/Sidebar';
 import './index.css';
-import products from './db/data.jsx'; // ✅ CORRECT
+import products from './db/data.jsx';
 
 import Card from './Components/Card';
 
