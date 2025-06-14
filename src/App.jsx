@@ -16,8 +16,10 @@ function App() {
     setQuery(e.target.value);
   };
 
-  const filteredItems = products.filter((products) =>
-    products.title.toLocaleLowerCase().indexOf(query.toLocaleLowerCase() !== -1)
+  const filteredItems = products.filter(
+    (products) =>
+      products.title.toLocaleLowerCase().indexOf(query.toLocaleLowerCase()) !==
+      -1
   );
 
   const handleChange = (e) => {
