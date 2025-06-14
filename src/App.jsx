@@ -44,16 +44,19 @@ function App() {
           title === selected
       );
     }
-    return filteredProducts.map(({ img, title, star, reviews, prevPrice }) => (
-      <Card
-        img={img}
-        title={title}
-        star={star}
-        reviews={reviews}
-        prevPrice={prevPrice}
-        key={Math.random()}
-      />
-    ));
+    return filteredProducts.map(
+      ({ img, title, star, reviews, prevPrice, newPrice }) => (
+        <Card
+          img={img}
+          title={title}
+          star={star}
+          reviews={reviews}
+          prevPrice={prevPrice}
+          newPrice={newPrice}
+          key={Math.random()}
+        />
+      )
+    );
   }
 
   const result = filteredData(products, storeQuery, query);
@@ -61,9 +64,9 @@ function App() {
   return (
     <>
       <Sidebar handleChange={handleChange} />
-      <Nav />
-      <Recommended />
-      <Products />
+      <Nav query={query} handleInputChange={handleInputChange} />
+      <Recommended handleButton={handleButton} />
+      <Products result={result} />
     </>
   );
 }
