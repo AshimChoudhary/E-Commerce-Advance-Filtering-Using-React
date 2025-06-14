@@ -1,4 +1,4 @@
-## 🛒 E-Commerce Advanced Filtering (React)
+## 🛒 E-Commerce Advanced Filtering (React) - Front - End Only
 
 A fully responsive and modern e-commerce product filter app built with **React.js**. Users can filter products by **category**, **price range**, and **colors**. Deployed on **Vercel**.
 
