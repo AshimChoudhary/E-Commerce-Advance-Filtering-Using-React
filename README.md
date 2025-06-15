@@ -15,6 +15,7 @@ A fully responsive and modern e-commerce product filter app built with **React.j
 * ✅ Price slider filter
 * ✅ Color-based product selection
 * ✅ Mobile-friendly & responsive design
+* ✅ Free and Fully responsive to use Front - end 
 
 ---
 
